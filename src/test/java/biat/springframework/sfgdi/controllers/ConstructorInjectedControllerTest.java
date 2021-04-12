@@ -1,16 +1,14 @@
 package biat.springframework.sfgdi.controllers;
 
-import biat.springframework.sfgdi.services.GreetingServiceImpl;
+import biat.springframework.sfgdi.services.PropertyInjectedGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConstructorInjectedControllerTest {
     ConstructorInjectedController controller;
     @BeforeEach
     void setUp() {
-        controller = new ConstructorInjectedController(new GreetingServiceImpl());
+        controller = new ConstructorInjectedController(new PropertyInjectedGreetingService());
     }
 
     @Test
