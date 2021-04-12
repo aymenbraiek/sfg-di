@@ -1,4 +1,4 @@
-package biat.springframework.sfgdi.controller;
+package biat.springframework.sfgdi.controllers;
 
 import org.springframework.stereotype.Controller;
 

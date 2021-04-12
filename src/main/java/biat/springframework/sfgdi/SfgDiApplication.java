@@ -1,6 +1,6 @@
 package biat.springframework.sfgdi;
 
-import biat.springframework.sfgdi.controller.MyController;
+import biat.springframework.sfgdi.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
